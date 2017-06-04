@@ -105,7 +105,7 @@ NumPy数组操作，例如通过一个布尔数组过滤，纯量乘法，或使
   Texas 71000
   Utah 5000113
 
-只传递一个字典的时候，结果Series中的索引将是排序后的字典的建。
+只传递一个字典的时候，结果Series中的索引将是排序后的字典的建。::
 
   In [23]: states = ['California', 'Ohio', 'Oregon', 'Texas']
   In [24]: obj4 = Series(sdata, index=states)
